@@ -1,10 +1,14 @@
-import { Home, Layout } from '@/components'
-import Head from 'next/head'
-import Image from 'next/image'
+import { Login, Signup, Join, Inquiry, InquiryList } from '@/components'
+
 
 
 export default function HomePage() {
-  return (
-    <Home/>
+  return (<>
+    <Login/>
+    <Signup/>
+    <Join/>
+    <Inquiry/>
+    <InquiryList/>
+    </>
   )
 }
